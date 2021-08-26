@@ -51,6 +51,7 @@ body {
     margin-right: 10px;
     cursor: pointer;
     box-shadow: 0 7px #396d8b;
+    padding:8px 24px;
   }
   
   .picture {
