@@ -29,7 +29,7 @@ body {
     padding: 180px 0 180px 0;
     background-image: url(https://www.chamberofcommerce.org/findaphoto/image/7942/thumbnail/original);
     background-size: cover;
-    color: rgb(245, 241, 236);
+    color: rgb(233, 228, 218);
     text-align: center;
   }
   
@@ -51,7 +51,6 @@ body {
     margin-right: 10px;
     cursor: pointer;
     box-shadow: 0 7px #396d8b;
-    padding:8px 24px;
   }
   
   .picture {
@@ -96,11 +95,7 @@ body {
   transition:all 1s;
 }
 
-.message-wrapper-heading h2:hover {
-  background-color: rgb(92, 172, 172);
-  opacity: 0.7;
-  width: 500px;
-}
+
 
 
   .message-wrapper-heading {
@@ -112,6 +107,23 @@ body {
     font-weight:normal;
 
   }
+
+.simpleIcon {
+  float:left;
+  width: 25%;
+  text-align : center;
+  position: relative;
+
+}
+
+.simpleIcon p {
+  position: absolute;
+  text-align:center;
+  top: 40%;
+  width: 100%;
+  color: rgb(131, 105, 105);
+
+}
 
   footer {
     background-color: rgb(56, 138, 138);
