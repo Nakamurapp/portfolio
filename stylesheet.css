@@ -1,32 +1,143 @@
+*{box-sizing:border-box;}
 
-@media (max-width:1000px) {
-    .simpleIcon{width:50%; margin-bottom:50px;}
-
-    .top-wrapper h1{
-        font-size:30px;
-      }
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  header{
+      background-color: rgb(56, 138, 138);
+      opacity: 0.7;
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      float:left;
+      padding-left: 20px;
+      padding-bottom: 20px;
       
-    
+  }
+
+  .header h1 {
+      font-size: 50px;
+      color:blanchedalmond
+      
   }
 
 
-  @media (max-width:670px) {
-    .simpleIcon{width:100%;}
+  .top-wrapper {
+    padding: 180px 0 180px 0;
+    background-image: url(https://www.chamberofcommerce.org/findaphoto/image/7942/thumbnail/original);
+    background-size: cover;
+    color: rgb(233, 228, 218);
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+  .top-wrapper p {
+    opacity: 0.7;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .GitHub {
+    background-color: #3ba7b6;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 0 7px #396d8b;
+  }
+  
+  .picture {
+    background-color: #af81a4;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 0 7px #8f5669;
+  }
+  
+  .photo {
+    background-color: #776666;
+    cursor: pointer;
+    box-shadow: 0 7px #4e3232;
+  }
+  
+  .btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .btn:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .message-wrapper {
     
-    footer{
-      text-align:center;
-    }
+    padding-bottom: 80px;
+    background-color: rgb(233, 214, 188);
 
-    .top-wrapper h1{
-        font-size:20px;
-      }
+  }
 
-    .btn{width:100%;}
+.message-wrapper-heading h2 {
+  transition:all 1s;
+}
 
-    .btn GitHub{margin-bottom:30px;}
 
-    .btn picture{margin-bottom:30px;}
 
-    .top-wrapper{text-align:left; padding-top:130px;}
-    
+
+  .message-wrapper-heading {
+    padding: 60px 0px 0px 0px;
+    color:rgb(131, 105, 105);
+  }
+
+  .message-wrapper h2 {
+    font-weight:normal;
+    text-align: center
+
+  }
+
+.simpleIcon {
+  float:left;
+  width: 25%;
+  position: relative;
+  text-align:center;
+  }
+
+.simpleIcon p {
+  position: absolute;
+  top: 90%;
+  text-align:center;
+  width: 110%;
+  color: rgb(131, 105, 105);
+
+}
+
+.clear{
+  clear:left;
+}
+
+  footer {
+    background-color: rgb(56, 138, 138);
+      opacity: 0.5;
+      width: 100%;
+      height: 100px;
+      padding-top: 20px;
+
   }
