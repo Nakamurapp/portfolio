@@ -1,3 +1,5 @@
+*{box-sizing:border-box;}
+
 body {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN";
@@ -24,6 +26,7 @@ body {
       color:blanchedalmond
       
   }
+
 
   .top-wrapper {
     padding: 180px 0 180px 0;
@@ -85,7 +88,7 @@ body {
   }
   
   .message-wrapper {
-    height:500px;
+    
     padding-bottom: 80px;
     background-color: rgb(233, 214, 188);
 
@@ -100,29 +103,33 @@ body {
 
   .message-wrapper-heading {
     padding: 60px 0px 0px 0px;
-    color:rgb(58, 35, 19);
+    color:rgb(131, 105, 105);
   }
 
   .message-wrapper h2 {
     font-weight:normal;
+    text-align: center
 
   }
 
 .simpleIcon {
   float:left;
   width: 25%;
-  text-align : center;
   position: relative;
-
-}
+  text-align:center;
+  }
 
 .simpleIcon p {
   position: absolute;
+  top: 90%;
   text-align:center;
-  top: 40%;
-  width: 100%;
+  width: 110%;
   color: rgb(131, 105, 105);
 
+}
+
+.clear{
+  clear:left;
 }
 
   footer {
