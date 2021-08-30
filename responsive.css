@@ -1,0 +1,32 @@
+
+@media (max-width:1000px) {
+    .simpleIcon{width:50%; margin-bottom:50px;}
+
+    .top-wrapper h1{
+        font-size:30px;
+      }
+      
+    
+  }
+
+
+  @media (max-width:670px) {
+    .simpleIcon{width:100%;}
+    
+    footer{
+      text-align:center;
+    }
+
+    .top-wrapper h1{
+        font-size:20px;
+      }
+
+    .btn{width:100%;}
+
+    .GitHub{margin-bottom:10px;}
+
+    .picture{margin-bottom:10px;}
+
+    .top-wrapper{text-align:left; padding-top:130px;}
+    
+  }
