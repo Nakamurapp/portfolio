@@ -49,7 +49,7 @@ body {
     margin: 20px 0;
   }
   
-  .gitHub {
+  .GitHub {
     background-color: #3ba7b6;
     margin-right: 10px;
     cursor: pointer;
@@ -122,9 +122,11 @@ body {
 
 .simpleIcon p {
   position: absolute;
-  top: 90%;
-  text-align:center;
-  width: 110%;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   color: rgb(131, 105, 105);
 
 }
