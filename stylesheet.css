@@ -22,8 +22,14 @@ body {
       
   }
 
+  .header-left {
+
+    float: left;
+
+  }
+
   .header-left h1 {
-      float: left;
+      
       font-size: 50px;
       color:blanchedalmond
       
