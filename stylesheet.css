@@ -23,6 +23,7 @@ body {
   }
 
   .header-left h1 {
+      float: left;
       font-size: 50px;
       color:blanchedalmond
       
