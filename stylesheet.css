@@ -135,6 +135,7 @@ body {
   transition:all 1s;
 }
 
+    
 
 
 
@@ -144,6 +145,12 @@ body {
   }
 
   .message-wrapper h2 {
+    font-weight:normal;
+    text-align: center
+
+  }
+
+.message-wrapper p{
     font-weight:normal;
     text-align: center
 
