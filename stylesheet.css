@@ -104,6 +104,12 @@ body {
     cursor: pointer;
     box-shadow: 0 7px #4e3232;
   }
+
+  .Works {
+    background-color: #776666;
+    cursor: pointer;
+    box-shadow: 0 7px #4e3232;
+  }
   
   .btn {
     padding: 8px 24px;
